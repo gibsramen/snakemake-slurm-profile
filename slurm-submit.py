@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 
-import logging
 import os
 import sys
 
 from snakemake.utils import read_job_properties
-
-logging.basicConfig(level=logging.INFO, filename="test.log")
 
 jobscript = sys.argv[1]
 job_properties = read_job_properties(jobscript)

@@ -1,0 +1,5 @@
+cluster: "slurm-submit.py"
+use-conda: True
+jobs: 10
+latency-wait: 60
+default-resources: [cpus=4, mem_mb=8000, runtime=60, nodes=1, partition=short]
